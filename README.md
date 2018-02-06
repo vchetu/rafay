@@ -1,2 +1,2 @@
 # rafay
-unzip frontend and backend and follow the instructions under corresponding README files
+Follow the README instructions under frontend and backend folders
