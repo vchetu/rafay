@@ -1,0 +1,23 @@
+<br><br>
+<h1 class="banner-title">Rafay</h1>
+<br>
+
+
+<div ng-controller="HomeCtrl as vm">
+	<div ng-if="vm.users">
+		<table>
+    		<tbody>
+    		    <tr>
+    		    	<th>Username</th>
+    		    	<th>URL</th>
+    		    	<th>Email</th>
+    		    </tr>
+        		<tr ng-repeat="user in vm.users">
+        			<td>{{user.username}}</td>
+        			<td>{{user.url}}</td>
+        			<td>{{user.email}}</td>
+        		</tr>
+    		</tbody>
+		</table>
+	</div>
+</div>
